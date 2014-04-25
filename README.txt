@@ -1,6 +1,6 @@
 A couple of scripts for extracting the list of articles written by a DZone user.
 
-== HOWTO ==
+==HOWTO==
 Retrieve the archive pages from your profile:
 ```
 for i in {0..25}; do curl -H 'Referer: http://css.dzone.com/user/355617/track?page=24' "http://css.dzone.com/user/355617/track?page=$i" > $i.html; done
