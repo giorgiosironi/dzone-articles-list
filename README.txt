@@ -9,7 +9,7 @@ Generate a CSV extraction:
 ```
 rm full_list.csv && for i in {0..25}; do php extract_links.php $i.html "Giorgio Sironi" >> full_list.csv; done
 ```
-Generate an HTML representation to put in a blogpost editor (missing <br /> are intentional):
+Generate an HTML representation to put in a blogpost editor:
 ```
 php build_html.php full_list.csv > full_list.html
 ```
