@@ -12,7 +12,7 @@ fclose($fp);
 
 foreach ($buckets as $bucketName => $bucket) {
     echo "<h2>$bucketName</h2>", PHP_EOL;
-    arsort($bucket);
+    $bucket = array_reverse($bucket, $preserve_keys = true);
     foreach ($bucket as $href => $title) {
         echo "<a href=\"$href\">$title</a>", PHP_EOL;
     }
