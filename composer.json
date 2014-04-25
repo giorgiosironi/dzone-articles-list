@@ -1,0 +1,12 @@
+{
+    "name": "giorgiosironi/dzone_articles_list",
+    "authors": [
+        {
+            "name": "Giorgio Sironi",
+            "email": "info@giorgiosironi.com"
+        }
+    ],
+    "require": {
+        "paquettg/php-html-parser": "@stable"
+    }
+}
